@@ -1,0 +1,5 @@
+django-admin startproject pro
+cd pro
+python manage.py migrate
+python manage.py runserver
+python manage.py startapp hello
